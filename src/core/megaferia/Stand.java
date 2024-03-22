@@ -15,5 +15,11 @@ public class Stand {
     private int id;
     private double precio;
     private ArrayList<Editorial> editoriales;
+
+    public Stand(int id, double precio) {
+        this.id = id;
+        this.precio = precio;
+        this.editoriales = new ArrayList<>();
+    }
     
 }
