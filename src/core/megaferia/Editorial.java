@@ -20,5 +20,14 @@ public class Editorial {
     private Gerente gerente;
     private ArrayList<Libro> libros;
     private ArrayList<Stand> stands;
+
+    public Editorial(String nit, String nombre, String direccion, Gerente gerente) {
+        this.nit = nit;
+        this.nombre = nombre;
+        this.direccion = direccion;
+        this.gerente = gerente;
+        this.libros = new ArrayList<>();
+        this.stands = new ArrayList<>();
+    }
     
 }
