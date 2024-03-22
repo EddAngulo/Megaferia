@@ -13,5 +13,10 @@ import core.megaferia.Editorial;
 public class Gerente extends Persona {
     
     private Editorial editorial;
+
+    public Gerente(String nombre, int cedula, Editorial editorial) {
+        super(nombre, cedula);
+        this.editorial = editorial;
+    }
     
 }

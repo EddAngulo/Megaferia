@@ -21,5 +21,17 @@ public abstract class Libro {
     protected String formato;
     protected double valor;
     protected Editorial editorial;
+
+    public Libro(String titulo, ArrayList<Autor> autores, String isbn, String genero, String formato, double valor, Editorial editorial) {
+        this.titulo = titulo;
+        this.autores = autores;
+        this.isbn = isbn;
+        this.genero = genero;
+        this.formato = formato;
+        this.valor = valor;
+        this.editorial = editorial;
+    }
+    
+    
     
 }
