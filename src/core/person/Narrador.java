@@ -14,5 +14,10 @@ import java.util.ArrayList;
 public class Narrador extends Persona {
     
     private ArrayList<Audiolibro> libros;
+
+    public Narrador(String nombre, int cedula) {
+        super(nombre, cedula);
+        this.libros = new ArrayList<>();
+    }
     
 }
