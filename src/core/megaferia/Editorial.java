@@ -29,5 +29,29 @@ public class Editorial {
         this.libros = new ArrayList<>();
         this.stands = new ArrayList<>();
     }
+
+    public String getNit() {
+        return nit;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getDireccion() {
+        return direccion;
+    }
+
+    public Gerente getGerente() {
+        return gerente;
+    }
+
+    public ArrayList<Libro> getLibros() {
+        return libros;
+    }
+
+    public ArrayList<Stand> getStands() {
+        return stands;
+    }
     
 }
