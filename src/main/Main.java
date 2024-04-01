@@ -19,6 +19,7 @@ public class Main {
         System.out.println((b >> 1) == a);
         System.out.println("Test: Conflict");
         System.out.println("This is a conflict");
+        System.out.println("Test for conflict");
     }
     
 }
